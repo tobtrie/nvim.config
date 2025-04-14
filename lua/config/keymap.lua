@@ -3,7 +3,7 @@ vim.keymap.set("n", "<leader>pv", "<cmd>Ex<CR>")
 
 -- quickfix
 vim.keymap.set("n", "<M-j>", "<cmd>cnext<CR>")
-vim.keymap.set("n", "<M-p>", "<cmd>cprev<CR>")
+vim.keymap.set("n", "<M-k>", "<cmd>cprev<CR>")
 
 -- terminal
 vim.keymap.set("t", "<esc><esc>", "<c-\\><c-n>")
